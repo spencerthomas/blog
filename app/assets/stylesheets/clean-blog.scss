@@ -81,13 +81,13 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     font-weight: 800;
-    color: #777777; }
+    color: black; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: #777777; }
+    color: black; }
   #mainNav .navbar-nav > li.nav-item > a {
     font-size: 12px;
     font-weight: 800;
@@ -99,12 +99,12 @@ body {
       background: transparent; }
       #mainNav .navbar-brand {
         padding: 15px 20px;
-        color: white; }
+        color: black; }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-          color: rgba(255, 255, 255, 0.8); }
+          color: #BAE4F0; }
       #mainNav .navbar-nav > li.nav-item > a {
         padding: 15px 20px;
-        color: white; }
+        color: black; }
         #mainNav .navbar-nav > li.nav-item > a:hover, #mainNav .navbar-nav > li.nav-item > a:focus {
           color: rgba(255, 255, 255, 0.8); } }
   @media only screen and (min-width: 1170px) {
@@ -350,3 +350,8 @@ footer {
   color: white;
   border: 1px solid #0085A1;
   background-color: #0085A1; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+
+}

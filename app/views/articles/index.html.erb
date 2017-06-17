@@ -6,15 +6,15 @@
       <br>
       <h2><%= article.title %></h2>
       <p><%= article.content %></p>
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary"><%= link_to 'Show', article %></button>
-        <button type="button" class="btn btn-secondary"><%= link_to 'Edit', edit_article_path(article) %></button>
-        <button type="button" class="btn btn-secondary"><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+      <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary btn-sm"><%= link_to 'Show', article %></button>
+        <button type="button" class="btn btn-secondary btn-sm"><%= link_to 'Edit', edit_article_path(article) %></button>
+        <button type="button" class="btn btn-secondary btn-sm"><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></button>
       </div>
     </div>
     <% end %>
 </div>  
   
 
-<div><%= link_to 'New Article', new_article_path, class: "btn btn-primary" %></div>
+<div><%= link_to 'New Article', new_article_path, class: "btn btn-primary btn-sm" %></div>
 
