@@ -106,7 +106,7 @@ body {
         padding: 15px 20px;
         color: black; }
         #mainNav .navbar-nav > li.nav-item > a:hover, #mainNav .navbar-nav > li.nav-item > a:focus {
-          color: rgba(255, 255, 255, 0.8); } }
+          color: #BAE4F0; } }
   @media only screen and (min-width: 1170px) {
     #mainNav {
       -webkit-transition: background-color .2s;
@@ -144,10 +144,14 @@ body {
         -o-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0); } }
 
+.masthead {
+  background-image: image-url('header.jpg');
+}
+
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #777777;
+  background-color: #000000;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -354,4 +358,8 @@ footer {
 .navbar-light .navbar-toggler {
   border-color: transparent;
 
+}
+
+.time_ago {
+  font-size:10px;
 }

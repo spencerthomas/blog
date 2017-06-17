@@ -1,10 +1,10 @@
-<p id="notice"><%= notice %></p>
 
 <div class="row justify-content-center">
-    <% @articles.each do |article| %>
+    <% @articles.reverse.each do |article| %>
     <div class="col-8">
       <br>
       <h2><%= article.title %></h2>
+      <p class="time_ago">Posted <%= time_ago_in_words(article.created_at) %> ago</p>
       <p><%= article.content %></p>
       <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
         <button type="button" class="btn btn-secondary btn-sm"><%= link_to 'Show', article %></button>
