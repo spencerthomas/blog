@@ -16,4 +16,5 @@
 //= require jquery3
 //= require bootstrap
 //= require clean-blog
+//= require phrasing
 //= require_tree .
